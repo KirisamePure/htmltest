@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilex:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --primary: #396dff;
+    --grey: #f7f7f7;
+    --white: #fff;
+
+    --xs: 4px;
+    --s: 8px;
+    --m: 16px;
+    --l: 24px;
+}
+
+.navTitle{
+    color: var(--white);
+    font-size: var(--l);
+    margin: 0;
+    font-weight: normal;
+}
+.navContainer{
+    background-color: #396dff;
+    padding: var(--s) var(--m);
+}
+
+html,
+body {
+    font-family: "Lilex", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    margin: 0;
+}
+
+.u-textCenter{
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.avatar{
+    border-radius: var(--m);
+}
+
+.u-flex{
+    display: flex;
+}
+
+.subContainer{
+    flex-basis: 0;
+    flex-grow: 1;
+}
